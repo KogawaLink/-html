@@ -10,21 +10,51 @@ h1,h2,h3,h4,h5 {
   padding: 0;
 }
 
-.coutainer {
+.container {
   width: 920px;
+  margin: 0 auto;
 }
 
 .header-title-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background-color: #fff;
 }
 
 .logo {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "arial narrow";
-  height: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .text-sub {
   color: #777;
+}
+
+.header-tagu {
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+}
+
+.header-tagu:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-tagu li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-tagu li a  {
+  color: #ffffff;
+  text-decoration: none;
 }
