@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5 {
 .logo {
   font-size: 40px;
   font-family: "arial narrow";
-  height: 100px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5 {
   width: 100%;
   background-color: #333;
   padding: 15px 0;
+  margin: 0;
 }
 
 .header-tagu:after {
@@ -57,4 +58,49 @@ h1,h2,h3,h4,h5 {
 .header-tagu li a  {
   color: #ffffff;
   text-decoration: none;
+}
+
+.blogphoto1 {
+  float: left;
+  width: 160px;
+  height: 160px;
+}
+
+.blog {
+  margin: 35px 0 35px 30px;
+}
+
+.hiduke1 {
+  display: block;
+  margin: 0 0 0 170px;
+}
+.hiduke1:after {
+  float: left;
+  margin: 0 0 0px 8px;
+}
+
+.details {
+  float:left;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  width: 450px;
+}
+
+.overview {
+  font-size: 14px;
+  display: inline-block;
+  width: 450px;
+}
+
+.blogphoto2 {
+  clear: left;
+  width: 160px;
+  height: 160px;
+  margin: 35px 0 0 0;
+}
+
+.hiduke2 {
+  display: inline-block;
+  margin: 0 0 0 8px;
 }
