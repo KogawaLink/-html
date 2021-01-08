@@ -94,13 +94,14 @@ h1,h2,h3,h4,h5 {
 }
 
 .blogphoto2 {
-  clear: left;
+  float: left;
+  display: block;
   width: 160px;
   height: 160px;
-  margin: 35px 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .hiduke2 {
   display: inline-block;
-  margin: 0 0 0 8px;
+  margin: 40px 0 0 8px;
 }
